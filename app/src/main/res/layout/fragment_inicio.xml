@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:accessibilityLiveRegion="polite"
+        android:addStatesFromChildren="false"
+        android:alwaysDrawnWithCache="false"
+        android:animateLayoutChanges="false"
+        android:animationCache="false"
+        android:background="@color/teal_700"
+        android:backgroundTint="#CBECA9F8"
+        android:baselineAligned="false"
+        android:clickable="false"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:foregroundTintMode="add"
+        android:orientation="vertical"
+        tools:context=".InicioFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:autoText="true"
+            android:background="#409C27B0"
+            android:text="Identificador"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/nombreEdtx"
+            android:layout_width="366dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="#409C27B0"
+            android:backgroundTint="#409C27B0"
+            android:hint="Ingrese el Nombre"
+            android:inputType="text">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/botonSiguiente"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:autoText="true"
+            android:background="@color/purple_200"
+            android:backgroundTint="@color/teal_700"
+            android:backgroundTintMode="src_atop"
+            android:text="Actualizar Nombre"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textIsSelectable="true"
+            app:icon="@color/teal_700"
+            app:iconTint="#03A9F4"
+            app:iconTintMode="add"
+            app:strokeColor="@color/teal_700">
+
+        </Button>
+
+        <TextView
+            android:id="@+id/txvNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="#409C27B0"
+            android:text="nombre"
+            android:textSize="24sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txvApellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="#409C27B0"
+            android:text="apellido"
+            android:textSize="24sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txvEdad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="#409C27B0"
+            android:text="edad"
+            android:textSize="24sp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/botonLeer"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="14dp"
+            android:background="@color/teal_700"
+            android:text="Leer Datos"
+            android:textIsSelectable="true"
+            android:verticalScrollbarPosition="left"
+            android:visibility="visible"
+            app:icon="@color/teal_700">
+
+        </Button>
+
+        <Button
+            android:id="@+id/botonBorrar"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="126dp"
+            android:layout_height="62dp"
+            android:layout_margin="16dp"
+            android:text="Borrar datos"
+            android:textIsSelectable="true"
+            android:textSize="14sp"
+            android:verticalScrollbarPosition="defaultPosition"
+            android:visibility="visible"
+            app:icon="@color/teal_700">
+
+        </Button>
+
+    </LinearLayout>
+</layout>
